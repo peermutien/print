@@ -1,0 +1,21 @@
+<br>
+<br><br>
+
+
+
+
+    <h1 class="login"><i>Login</i></h1>
+
+  
+    <form [formGroup]="registrationForm" (ngSubmit)="onSubmit()">
+    <input class="inputBox1" type="text" placeholder="Enter Username" formControlName="userName"  name="userName" [(ngModel)]="login.userName"/>
+    <span class="i1" *ngIf="userName && userName.invalid && userName.touched"> Username is Required !! </span>
+
+
+    <input class="inputBox" type="password" placeholder="Enter Password" formControlName="passWord"  name="passWord" [(ngModel)]="login.passWord" >
+    <span class="i2" *ngIf="passWord && passWord.invalid && passWord.touched" > Password is Required !! </span>
+
+    <button class="appButton" (click)="addUser()" type="submit">Login</button>  <!-- Token Generation-->
+    <button class="appButton1" (click)="regUser()"  type="submit">Register</button> <!-- Registration-->
+
+  </form>

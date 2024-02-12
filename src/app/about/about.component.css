@@ -1,0 +1,50 @@
+.size{
+    color:black;
+    font-size:  80;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align:  justify;
+    
+}
+
+.paragraph{
+  
+    margin-left: 180px;
+    width: 1200px;
+    height: 70px;
+    font-size: 25px;
+}
+
+.qr{
+
+    position: relative;
+ top : 10px;
+ left: 520px;
+ padding:20px;
+}
+
+.driver{
+    font-size: 70px;
+    margin-left: 260px;
+    height: -100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: crimson;
+}
+
+   .appButton{
+
+    margin:0px;
+   
+    padding:4px ;
+   
+    width:150px;
+   
+    background-color: crimson;
+    color:azure;
+    border: 1px solid;
+   
+    cursor:pointer;
+    margin-left: 0%;
+    border-radius: 50px;
+   
+   
+   }

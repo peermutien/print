@@ -1,0 +1,116 @@
+  
+  .login{
+    /* text-align: center; */
+    margin-left: 830px;
+    font-size: 60px;
+    margin-top: 120px;
+    position: absolute;
+
+}
+
+.inputBox{
+
+ /* display:block; */
+text-align: center;
+ /* margin:25px; */
+ position: absolute;
+ top :400px;
+ left: 752px;
+ padding:20px;
+
+ width: 300px;
+
+ border:3px solid crimson;
+ border-radius: 50px;
+ box-shadow: 80px;
+ font-size: 15px;
+
+
+}
+.inputBox1{
+
+  /* display:block; */
+ text-align: center;
+  /* margin:25px; */
+  position: absolute;
+  top : 300px;
+  left: 752px;
+  padding:20px;
+ 
+  width: 300px;
+ 
+  border:3px solid crimson;
+  border-radius: 50px;
+  box-shadow: 80px;
+  font-size: 15px;
+ 
+ 
+ }
+
+.i1{
+ text-align: center;
+ margin:55px;
+ position: absolute;
+ left: 780px;
+ font-size: 15px;
+ top: 320px;
+ font-weight: 700;
+}
+.i2{
+ 
+   text-align: center;
+   margin:55px;
+   position: absolute;
+   left: 780px;
+   top:420px;
+   font-size: 15px;
+   font-weight: 700;
+ }
+ 
+ 
+span{
+ color:red;
+}
+
+
+
+.appButton{
+
+ margin:25px;
+
+ padding:10px ;
+position: absolute;
+ width:100px;
+
+ background-color: crimson;
+ color:azure;
+ border: 1px solid;
+top: 480px;
+ cursor:pointer;
+ margin-left: 780px;
+ border-radius: 50px;
+
+
+}
+
+.appButton1{
+  margin:0px;
+position: absolute;
+ padding:10px ;
+
+ width:100px; 
+
+ background-color: crimson;
+ color:azure;
+ border: 1px solid;
+
+ cursor:pointer;
+ top: 505px;
+ margin-left: 938px;
+ border-radius: 50px;   
+ 
+}
+
+
+
+

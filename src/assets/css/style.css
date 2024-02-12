@@ -1,0 +1,12 @@
+#heading{
+    color: Blue;
+    font-size: 50px;
+
+}
+
+#paragraph{
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: medium;
+    color: darkgreen;
+}

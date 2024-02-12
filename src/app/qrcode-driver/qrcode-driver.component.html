@@ -1,0 +1,36 @@
+<p>qrcode-driver works!</p>
+<br>
+<br><br>
+
+
+
+<h1 class="driver">Drivers</h1>
+<div class="container">
+    
+    <table class="table table-striped " style="width:100%">
+        <thead>
+            <tr>
+                 <th style="color:blue;font-size:25px;"><i>Driver Name</i></th>
+                <th style="color:blue;font-size:25px;" ><i>QR code</i></th>
+            </tr>
+        </thead>
+
+        <tbody>
+          
+                <tr *ngFor="let driver of drivers">
+                <td style="font-size: 30px; font-family:Georgia,serif">{{driver.name}}  </td>
+                <td> <button class="appButton" (click)="driver.displayQRCode()" type="submit">Display QR Code</button></td>
+            </tr>
+            
+        </tbody>
+    </table>
+    
+<!-- 
+<h1 class="driver">Drivers</h1>
+      <ul>
+        <li *ngFor="let driver of drivers">
+          {{ driver.name }}
+
+          <button class='appButton' (click)="driver.displayQRCode()">Display QR Code</button>
+        </li>
+      </ul> -->

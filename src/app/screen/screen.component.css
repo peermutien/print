@@ -1,0 +1,22 @@
+.appButton{
+  
+    margin:25px;
+  
+    padding:10px ;
+  
+    width:190px;
+  
+    background-color: crimson;
+    color:azure;
+    border: 1px solid;
+  
+    cursor:pointer;
+    margin-left:48%;
+    border-radius: 60px;
+  
+
+  }
+
+  #qr-code {
+    display: none;
+  }
